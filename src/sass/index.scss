@@ -1,0 +1,34 @@
+// base
+@import './base/container';
+@import './base/base';
+@import './base/resets';
+
+// utilits
+@import './utilits/common';
+@import './utilits/vars';
+@import './utilits/visually-hidden';
+
+// elements
+@import './film-card/film-card';
+@import './modal-film/modal-film';
+
+//Headers
+@import './header-headerlibrary/header';
+@import './header-headerlibrary/headerlibrary';
+
+// gallery
+@import './gallery/gallery';
+
+// Pagination
+@import './pagination/pagination';
+
+// Footer
+@import './footer/footer';
+
+// spinner
+@import './spinner/spinner.scss';
+
+// Presentation
+@import './presentation/present';
+// Heart animation
+@import './presentation/heart.scss';

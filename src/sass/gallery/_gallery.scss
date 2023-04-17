@@ -1,0 +1,42 @@
+// Container Gallery
+.gallery {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  // Tablet
+  @media screen and (min-width: 768px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    gap: 32px;
+  }
+
+  // Desktop
+  @media screen and (min-width: 1280px) {
+    gap: 16px;
+  }
+}
+
+// Gallery background
+.gallery-bg {
+  background-color: var(--container-bg);
+}
+
+// Заглушка
+.gallery__pin {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 50px;
+  height: 50vh;
+}
+
+.card__pic {
+  transition: box-shadow var(--animation);
+  &:hover,
+  &:focus {
+    box-shadow: (0px 8px 43px rgba(0, 0, 0, 0.8));
+  }
+}
